@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
             TxtNumber.Focus();
         }
 
-        private void btnSquare_Click(object sender, EventArgs e)
+        private void BtnSquare_Click(object sender, EventArgs e)
         {
             TxtTotal.Text = square(Convert.ToInt16(TxtNumber.Text)).ToString();
 
