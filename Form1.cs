@@ -34,18 +34,18 @@ namespace WindowsFormsApp1
             TxtNumber.Focus();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSquare_Click(object sender, EventArgs e)
         {
             TxtTotal.Text = square(Convert.ToInt16(TxtNumber.Text)).ToString();
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void BtnClear_Click(object sender, EventArgs e)
         {
             clear();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BtnCube_Click(object sender, EventArgs e)
         {
             TxtTotal.Text = cube(Convert.ToInt16(TxtNumber.Text)).ToString();
         }
